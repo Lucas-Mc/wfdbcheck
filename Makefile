@@ -52,6 +52,7 @@ clean:
 	rm -f wfdbcheck
 	rm -f *.o
 	rm -f msg*.tmp
+	rm -f messages.h
 
 distclean: clean
 	rm -f messages.h
